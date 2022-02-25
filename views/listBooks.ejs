@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="page2.css">
+  <title>Lista De livros</title>
+</head>
+<body>
+  <nav>
+    <a class="navigate-button" href="/">
+      INSERIR
+    </a>
+  </nav>
+    <div>
+      <form action="/search" method="post" id="form-search">
+        <input type="text" name="search" id='input-search'/> 
+        <button type="submit" id="button-submit">Pesquisa</button>
+      </form>
+    </div>
+    <div class="box-info">
+      <%for(book of books){%>
+        <input type="hidden" name="id" id="id" value="<%=book._id%>"/>
+       <div class="box-item">
+            <div class="img-box">
+             <img src="<%=book.url%>" />
+            </div>
+           <h1 class="h1-itens"><%=book.title %></h1>
+           <p class="p-itens"><%=book.author %></p>
+              <a class='saiba-mais' href="delete/<%=book._id%>">Excluir</a>
+       </div>
+       <%}%> 
+    </div> 
+</body>
+</html>
+
+
+
+

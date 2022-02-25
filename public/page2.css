@@ -1,0 +1,108 @@
+body{
+
+  margin:0; 
+  padding:0;
+}
+
+nav{
+  width: 99vw;
+  height: 10vh;
+
+  display: flex;
+  align-items: center;  
+  background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 20%), radial-gradient(circle farthest-corner at 0 40%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+  margin-bottom: 5em;
+}
+
+a.navigate-button{
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  margin-left: 4em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+div.box-info{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 99vw;
+  grid-gap:20px;
+}
+
+div.box-item{
+  width: 295px;
+  height: 400px;
+  
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.img-box{
+  margin-top: 20px;
+  width: 180px;
+  height: 200px;
+}
+
+img{
+  width: 200px;
+  height: 200px;
+}
+
+a.saiba-mais{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 15px;
+  width: 100px;
+  height: 30px;
+  border-radius: 3px;
+  background-color: rgb(34, 34, 230);
+  
+
+}
+
+#form-search{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2em;
+  width: 100vw;
+}
+#input-search{
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+
+#button-submit{
+  height: 38px;
+  border-radius: 5px;
+}  
+
+
+
+p.p-itens{
+  margin-top: -20px;
+}
+h1.h1-itens{
+ 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  text-align: center;
+
+  margin-left:10px;
+  margin-right:10px;
+
+}
+

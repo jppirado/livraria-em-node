@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inserir Livro</title>
+  <link rel="stylesheet" type='text/css' href="page1.css">
+</head>
+<body>
+  <nav class="header-nav"> 
+      <a href="/list">
+        <div class="list-box">
+          LISTAR
+        </div>
+      </a>
+  </nav>
+  <div class="box-h1">
+    <h1 class="h1-h1">Cadastre o  Livro</h1>
+  </div>
+  <form method="post" action="/insert">
+    <input type="text" name="title" placeholder="Digite o nome do livro" required />
+    <input type="text" name="author" placeholder="Digite o autor do livro" required />
+    <input type="text" name="category" placeholder="Digite a categoria do livro" required />
+    <input type='text' name="url" placeholder='Insira a url da foto' required />
+    <button type="submit">Cadastrar Livro</button>
+  </form>
+</body>
+</html>
